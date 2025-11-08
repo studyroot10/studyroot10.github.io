@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafb;
+  color: #333;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+footer {
+  background-color: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  border-top: 1px solid #333;
+}
+
+#ncert:hover{
+    zoom: 1.1;
+    transition: all 0.2 ease;
+}
