@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafb;
+  color: #333;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #0077ff;
+    transition: all  0.3s  ease;
+    display:inline-block;
+}
+
+a:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    background-color: #111 ;
+    color: #ccc;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    border-top: 1px solid #333;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* this is usually what you wanted instead of justify-items */
+    text-align: center;
+    margin-top: 3rem;
+    flex-direction: column; /* optional: only if you want items stacked vertically */
+}

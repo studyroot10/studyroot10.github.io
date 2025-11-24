@@ -35,7 +35,7 @@ main strong {
   color: #222;
 }
 
-a#reserves {
+a.reserves {
   display: inline-block;
   text-decoration: none;
   color: white;
@@ -45,7 +45,7 @@ a#reserves {
   transition: all 0.3s ease;
 }
 
-a#reserves:hover {
+a.reserves:hover {
   background-color: #005ad3;
   transform: translateY(-2px);
 }
